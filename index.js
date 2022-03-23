@@ -24,3 +24,11 @@ function multiplesOfThreeOrFive(){
 // console.log("---Q3---")
 // multiplesOfThreeOrFive();
 
+function untilNum(num){
+    for(let i = 1; i <= num; i++){
+        console.log(i);
+    }
+}   console.log("---Q2---")
+    untilNum(15);
+
+
