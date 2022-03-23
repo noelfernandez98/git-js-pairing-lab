@@ -37,3 +37,16 @@ function multiply(num1, num2){
 }
 // console.log("---Q5---");
 // console.log(multiply(2,5));
+
+function add(num1, num2) {
+    if (num1 === num2){
+       return (num1 + num2)*3;
+    }else{
+       return num1 + num2;
+    }
+    
+}
+    console.log("---Q6---")
+    console.log(add(2, 2));
+    console.log(add(2, 3));
+    
