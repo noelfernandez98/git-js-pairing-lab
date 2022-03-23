@@ -3,11 +3,24 @@ function fiveToOneHundred(){
       console.log(i);
     }
 }
-fiveToOneHundred();
+// console.log("---Q1---")
+// fiveToOneHundred();
 
 function multiplesOfThree(){
     for(let i = 3; i <=100; i+=3){
         console.log(i);
     }
 }
-multiplesOfThree();
+// console.log("---Q2---")
+// multiplesOfThree();
+
+function multiplesOfThreeOrFive(){
+    for(let i = 0; i <= 100; i++){
+        if(i % 3 === 0 || i % 5 === 0){
+            console.log(i);
+        }
+    }
+}
+// console.log("---Q3---")
+// multiplesOfThreeOrFive();
+
