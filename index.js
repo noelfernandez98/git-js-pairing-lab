@@ -61,3 +61,10 @@ function isNegative(num){
 // console.log(isNegative(3));
 // console.log(isNegative(-3));
 // console.log(isNegative(0));
+
+function triangleArea(base,height){
+    return (base * height)*.5;
+    
+}
+    console.log("---Q8---")
+    console.log(triangleArea(5,10));
