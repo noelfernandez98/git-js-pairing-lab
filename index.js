@@ -76,9 +76,9 @@ function betweenTwentyAndFourty(num){
         return false;
     }
 }
-console.log("---Q9---")
-console.log(betweenTwentyAndFourty(19));
-console.log(betweenTwentyAndFourty(44));
+// console.log("---Q9---")
+// console.log(betweenTwentyAndFourty(19));
+// console.log(betweenTwentyAndFourty(44));
 
 function largest(num1,num2,num3){
     return Math.max(num1,num2,num3);
@@ -93,3 +93,18 @@ function printTime(){
 }
 // console.log("---Q11---")
 // console.log(printTime())
+
+function isLeapYear(year){
+    for( let i = 1752; i <=year; i+=4){
+         if(i === year){
+             return true;
+         }else{
+             return false;
+         }
+    }
+}
+console.log(isLeapYear(1756));
+console.log(isLeapYear(1900));
+console.log(isLeapYear(2020));
+console.log(isLeapYear(1999));
+
