@@ -95,7 +95,7 @@ function printTime(){
 // console.log(printTime())
 
 function isLeapYear(year){
-    for( let i = 1752; i <=year; i+=4){
+    for( let i = 1752; i <=year; i++){
          if(i === year){
              return true;
          }else{
@@ -103,8 +103,15 @@ function isLeapYear(year){
          }
     }
 }
-console.log(isLeapYear(1756));
-console.log(isLeapYear(1900));
-console.log(isLeapYear(2020));
-console.log(isLeapYear(1999));
+// console.log("---Q12---")
+// console.log(isLeapYear(1756));
+// console.log(isLeapYear(1900));
+// console.log(isLeapYear(2020));
+// console.log(isLeapYear(1999));
 
+function getExtention(filename){
+    let extension = filename.split(".").pop()
+    return "."+ extension
+}
+// console.log("---Q12---")
+// console.log(getExtention("hello.txt"));
