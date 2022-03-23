@@ -83,4 +83,13 @@ console.log(betweenTwentyAndFourty(44));
 function largest(num1,num2,num3){
     return Math.max(num1,num2,num3);
 }
-    console.log(largest(2,4,6));
+// console.log("---Q10---")
+//     console.log(largest(2,4,6));
+
+function printTime(){
+    let currentDate = new Date()
+    let currentTime = currentDate.getHours()+":"+currentDate.getMinutes()+":"+currentDate.getSeconds()
+    return currentTime
+}
+// console.log("---Q11---")
+// console.log(printTime())
