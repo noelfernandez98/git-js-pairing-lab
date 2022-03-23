@@ -28,7 +28,12 @@ function untilNum(num){
     for(let i = 1; i <= num; i++){
         console.log(i);
     }
-}   console.log("---Q2---")
-    untilNum(15);
+}   
+// console.log("---Q4---")
+//     untilNum(15);
 
-
+function multiply(num1, num2){
+    return num1 * num2;
+}
+// console.log("---Q5---");
+// console.log(multiply(2,5));
