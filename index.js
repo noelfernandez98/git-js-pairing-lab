@@ -79,3 +79,8 @@ function betweenTwentyAndFourty(num){
 console.log("---Q9---")
 console.log(betweenTwentyAndFourty(19));
 console.log(betweenTwentyAndFourty(44));
+
+function largest(num1,num2,num3){
+    return Math.max(num1,num2,num3);
+}
+    console.log(largest(2,4,6));
