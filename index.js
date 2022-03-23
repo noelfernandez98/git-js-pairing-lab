@@ -70,7 +70,7 @@ function triangleArea(base,height){
     // console.log(triangleArea(5,10));
 
 function betweenTwentyAndFourty(num){
-    if(num >= 20 && num <= 100){
+    if(num > 20 && num < 100){
         return true;
     }else{
         return false;
