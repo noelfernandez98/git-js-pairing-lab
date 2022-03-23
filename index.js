@@ -66,5 +66,16 @@ function triangleArea(base,height){
     return (base * height)*.5;
     
 }
-    console.log("---Q8---")
-    console.log(triangleArea(5,10));
+    // console.log("---Q8---")
+    // console.log(triangleArea(5,10));
+
+function betweenTwentyAndFourty(num){
+    if(num >= 20 && num <= 100){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log("---Q9---")
+console.log(betweenTwentyAndFourty(19));
+console.log(betweenTwentyAndFourty(44));
