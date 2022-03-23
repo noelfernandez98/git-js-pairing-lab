@@ -113,5 +113,14 @@ function getExtention(filename){
     let extension = filename.split(".").pop()
     return "."+ extension
 }
-// console.log("---Q12---")
+// console.log("---Q13---")
 // console.log(getExtention("hello.txt"));
+
+function absoluteNineteen(num){
+    let difference = Math.abs(num) - 19
+    if (num > 19){
+        return difference * 3;
+    }
+}
+// console.log("---Q13---")
+// console.log(absoluteNineteen(21));
