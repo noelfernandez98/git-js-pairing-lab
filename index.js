@@ -95,13 +95,7 @@ function printTime(){
 // console.log(printTime())
 
 function isLeapYear(year){
-    for( let i = 1752; i <=year; i++){
-         if(i === year){
-             return true;
-         }else{
-             return false;
-         }
-    }
+   return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
 }
 // console.log("---Q12---")
 // console.log(isLeapYear(1756));
@@ -133,8 +127,8 @@ function absoluteNineteen(num){
 // console.log(switchLetters("anne"))
 
 function switchLetters(str){
-    var emptyStr = "";
-    for(var i = 0; i < str.length; i++){
+    let emptyStr = "";
+    for(let i = 0; i < str.length; i++){
         if(i != 0 && i!= str.length-1){
             emptyStr += str[i]
             console.log(i)
@@ -142,5 +136,17 @@ function switchLetters(str){
     }
     return str[str.length-1] + emptyStr + str[0];
 }
-console.log("---Q15---")
-console.log(switchLetters("anne"))
+// console.log("---Q15---")
+// console.log(switchLetters("anne"))
+
+function changeString(str){
+    let newStr = '';
+for (let i = 0; i < str.length; i++) {
+    if (96 < str.charCodeAt(i) && str.charCodeAt(i) < 123) {
+        newStr += String.fromCharCode(str.charCodeAt(i) + 1);
+    }
+ }
+ return newStr;
+}
+// console.log("---Q16---")
+// console.log(changeString('javascript'));
