@@ -46,7 +46,18 @@ function add(num1, num2) {
     }
     
 }
-    console.log("---Q6---")
-    console.log(add(2, 2));
-    console.log(add(2, 3));
+    // console.log("---Q6---")
+    // console.log(add(2, 2));
+    // console.log(add(2, 3));
     
+function isNegative(num){
+    if(num < 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+// console.log("---Q7---");
+// console.log(isNegative(3));
+// console.log(isNegative(-3));
+// console.log(isNegative(0));
