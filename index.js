@@ -122,5 +122,25 @@ function absoluteNineteen(num){
         return difference * 3;
     }
 }
-// console.log("---Q13---")
+// console.log("---Q14---")
 // console.log(absoluteNineteen(21));
+
+// function switchLetters(str){
+//     let array = []
+//     let switchL = array.push(str.split("")).splice(array.length-1, 0, array[0]).splice(array[1], 0, array.length-1)
+//     return switchL
+// }
+// console.log(switchLetters("anne"))
+
+function switchLetters(str){
+    var emptyStr = "";
+    for(var i = 0; i < str.length; i++){
+        if(i != 0 && i!= str.length-1){
+            emptyStr += str[i]
+            console.log(i)
+        }
+    }
+    return str[str.length-1] + emptyStr + str[0];
+}
+console.log("---Q15---")
+console.log(switchLetters("anne"))
