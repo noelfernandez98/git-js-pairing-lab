@@ -125,12 +125,6 @@ function absoluteNineteen(num){
 // console.log("---Q14---")
 // console.log(absoluteNineteen(21));
 
-// function switchLetters(str){
-//     let array = []
-//     let switchL = array.push(str.split("")).splice(array.length-1, 0, array[0]).splice(array[1], 0, array.length-1)
-//     return switchL
-// }
-// console.log(switchLetters("anne"))
 
 function switchLetters(str){
     var emptyStr = "";
